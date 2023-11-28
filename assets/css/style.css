@@ -1,0 +1,253 @@
+body{
+    font-family: Poppins;
+
+}
+.bg-primary {
+    background-color: #BA9E76 !important;
+}
+
+.text-primary {
+    color: #BA9E76 !important;
+}
+
+.bg-brown {
+    background-color: #342F2C !important;
+}
+
+.text-brown {
+    color: #342F2C !important;
+}
+
+.btn-bg {
+    background-color: #342F2C !important;
+}
+.btn-primary{
+    background-color: #BA9E76 !important;
+
+}
+.text-white {
+    color: #FFFBEF !important;
+}
+.bg-secondary {
+    background-color: #FFFBEF !important;
+}
+.bg-white {
+    background-color: #F0E9D6 !important;
+}
+.text-black{
+    color: #342F2C !important;
+}
+.bg-black{
+    background-color: #342F2C !important;
+}
+.font-Poppins {
+    font-family: Poppins;
+}
+
+
+.font-OPTICopperplate {
+    font-family: OPTICopperplate;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.slider-1 {
+    background-image: url('../imgs/slider-1.jpg');
+    padding: 50px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #0000006d;
+    z-index: -1;
+    position: relative;
+    background-blend-mode: darken;
+    
+}
+.slider-1 h1{
+    font-size: 30px!important; 
+}
+.content h2{
+    font-size: 20px!important; 
+}
+@media(min-width:1200px){
+    .slider-1 {
+        background-image: url('../imgs/slider-1.jpg');
+        padding: 100px 0;
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-color: #BA9E76;
+        z-index: -1;
+        position: relative;
+      
+    }
+    .slider-1 h1{
+        font-size: 50px!important; 
+    }
+    .content h2{
+        font-size:30px !important; 
+    }
+
+  
+}
+.pettern {
+    position: absolute;
+    width:40%;
+    height: 100%;
+   background-color: #342F2C;
+   top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+.pettern img {
+  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+   
+    
+
+}
+
+.pattern{
+    width: 100%;
+    height: 100%;
+    background-color:#342F2C ;
+}
+.pattern img {
+    width: 100%;
+    height: 100%;
+   object-fit: contain;
+   
+}
+.product-img{
+    width: 100%;
+    height: 100%;
+}
+.product-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.head{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.pettern-p{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+  z-index: -1;
+    top: 0%;
+    left: 0;
+}
+.pettern-p img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pettern-b{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+  z-index: -1;
+    bottom: 0%;
+    left: 0;
+}
+.pettern-b img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ctaften   */
+.craften {
+    background-image: url('../imgs/slider-2.jpg');
+    padding: 300px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+.pattern {
+    background-image: url('../imgs/svgviewer-png-output.png');
+    background-size: cover;
+ 
+}
+h2{
+    position: relative;
+    z-index: 1;
+}
+
+.petern{
+    background-image: url('../imgs/svgviewer-png-output.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+   
+}
+.footer{
+    position: relative;
+
+}
+
+map{
+    position: relative;
+}
+.program{
+    position: relative;
+    background-image: url('/assets/imgs/Vector\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:-40%;
+    z-index: 1;
+}
+
+.pettern-program{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    z-index: -1;
+    right: 0;
+} 
+.pettern-program img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box, .box-2, .box-1{
+    position: relative;
+}
+.box, .box-2::after, .box-1::after{
+    position: absolute;
+    content: "";
+    height: 70px;
+    width: 70px;
+    top:-20%;
+    left: 20%;
+    z-index: -1;
+    background-color: #BA9E76;
+}
+.box{
+    height: 70px;
+    width: 70px;
+    top:0%;
+    left: -4%;  
+}
+.box-1::after{
+    height: 90px;
+    width: 90px;
+    top:15%;
+    left: -5%;
+}
+
